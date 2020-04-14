@@ -526,6 +526,7 @@ function saveToSpreadsheet(results) {
 * Sends the version number and a random UUID (basically just a random number as required by Analytics).
 * Basically tells that somewhere someone ran the script with a certain version.
 * Credit for the idea goes to Russel Savage, who posted his version at http://www.freeadwordsscripts.com/2013/11/track-adwords-script-runs-with-google.html.
+* @param {String} version The current version of the script. 
 */
 function trackInAnalytics(version){
   // Create the random UUID from 30 random hex numbers gets them into the format xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx (with y being 8, 9, a, or b).
