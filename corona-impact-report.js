@@ -18,6 +18,8 @@ var config = {
      * You can include as many periods as you want (or just one). There has to be a comma between entries, but not after the last one.
      * Note: The periods don't need to have the same length.
      * Note: Make sure periods are a multiple of seven days long. Otherwise the distribution over weekdays won't make sense (e.g. if there are more Mondays than Tuesdays, there will be more clicks on Mondays).
+     * (This is why the default "February" period does not include the 29th.)
+     * 
      */
     periods: {
         "February": {start: "2020-02-01", end: "2020-02-28"},
