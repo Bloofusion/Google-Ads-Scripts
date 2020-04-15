@@ -4,7 +4,8 @@
  * This script charts search behavior regarding devices, weekdays, and hour of day for several periods.
  * By default, it compares the weeks before and at the beginning of the corona crisis.
  * 
- * © 2020 Martin Roettgerding, Bloofusion Germany GmbH.
+ * Created in 2020 by Martin Roettgerding, Bloofusion Germany GmbH.
+ * Licensed under GNU General Public License v3.0
  * https://github.com/Bloofusion/Google-Ads-Scripts
  */
 
